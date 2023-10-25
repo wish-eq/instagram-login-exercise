@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.container {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.page {
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  width: 375px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin: 10px;
+}
+
+#instagram-img {
+  width: 50%;
+}
+
+form {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+form input {
+  margin-bottom: 5px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  outline: none;
+  background-color: #fafafa;
+}
+
+form input:focus {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #fafafa;
+}
+
+input[type="text"],
+input[type="text"] {
+  padding-left: 15px;
+  position: relative;
+  height: 35px;
+  font-size: 14px;
+}
+
+form button {
+  margin-top: 10px;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0095f6;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+form button:active {
+  background-color: rgba(59, 123, 206, 0.507);
+}
+
+.option-bar {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option {
+  color: #808080;
+  position: relative;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.line-1 {
+  width: 33%;
+  height: 1px;
+  background-color: #dbdbdb;
+  border-radius: 50px;
+  transform: translateX(-10%);
+}
+
+.line-2 {
+  width: 33%;
+  height: 1px;
+  background-color: #dbdbdb;
+  border-radius: 50px;
+  transform: translateX(10%);
+}
+
+.fb-link {
+  margin: 10px 0;
+  padding: 0 0 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook-icon {
+  width: 5%;
+  margin: 0 5px 0 0;
+}
+.fb-link a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #385185;
+  font-size: 16px;
+}
+
+.forget-id {
+  margin: 10px 0;
+  padding: 5px 0 0 0;
+}
+
+.forget-id a {
+  text-decoration: none;
+  color: #385185;
+  font-size: 14px;
+}
+
+#page-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-2 a {
+  text-decoration: none;
+  color: #0095f6;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 0 0 2px;
+}
+
+#page-2 p {
+  font-size: 16;
+  padding: 0 2px 0 0;
+}
+
+.page-download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.download {
+  width: 375px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#appstore-img {
+  width: 150px;
+  padding: 0 4px 0 0;
+}
+
+#googleplay-img {
+  width: 150px;
+  padding: 0 0 0 4px;
+}
+
+footer {
+  margin: 30px auto 0 auto;
+  max-width: 935px;
+}
+
+.footer {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  /* this help text stays together */
+  flex-wrap: wrap;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #6d6d6d;
+  margin: 10px;
+  font-size: 13px;
+  font-weight: 40;
+}
+
+.foot-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  font-size: 13px;
+}
+
+.foot-footer select {
+  color: #6d6d6d;
+  padding: 0 0 0 0;
+  border: none;
+  background-color: #fafafa;
+  margin: 10px;
+  padding: 0;
+  outline: none;
+  width: auto;
+  overflow: none;
+}
+
+.copyright {
+  color: #6d6d6d;
+}
