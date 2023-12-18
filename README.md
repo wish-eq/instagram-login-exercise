@@ -1,6 +1,6 @@
 # Instagram Login Page (Dummy)
 - A responsive login page from Instagram with HTML and CSS using flexbox
-- https://instagram-login-exercise-wish-eq.netlify.app/
+- https://ig-login-exercise-wish-eq.netlify.app/
 
 ## Desktop 24"
 ![Desktop-24](https://github.com/wish-eq/instagram-login-exercise/assets/97574512/2a6bd57f-3b73-4933-87b0-15023c7c1238)
