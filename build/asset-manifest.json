@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b3df0bb.css",
+    "main.js": "/static/js/main.68a4af4d.js",
+    "static/media/googleplay-button.png": "/static/media/googleplay-button.9f0270e06c520448a690.png",
+    "index.html": "/index.html",
+    "main.3b3df0bb.css.map": "/static/css/main.3b3df0bb.css.map",
+    "main.68a4af4d.js.map": "/static/js/main.68a4af4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b3df0bb.css",
+    "static/js/main.68a4af4d.js"
+  ]
+}
